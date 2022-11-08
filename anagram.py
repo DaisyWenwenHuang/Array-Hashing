@@ -24,4 +24,11 @@ class Solution:
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         return Counter(s) == Counter(t)
+# time complexity and memory is the same as solution 1
 
+# what if no extra memory?
+# can sort both strings inplace first then compare each elements one by one
+# depends on the sorting algorithm choosen, time complexity can be O(n^2) or O(nlogn)
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        return sorted(s) == sorted(t)
