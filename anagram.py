@@ -16,3 +16,12 @@ class Solution:
                 return False
         
         return True
+# O(s+t)  as iterarte both strings
+# memory complexity is O(s+t) as building hashmap requires extra memory
+
+# solution 2
+# using Counter
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        return Counter(s) == Counter(t)
+
