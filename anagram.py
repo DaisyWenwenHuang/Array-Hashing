@@ -26,6 +26,7 @@ class Solution:
         return Counter(s) == Counter(t)
 # time complexity and memory is the same as solution 1
 
+# follow up question
 # what if no extra memory?
 # can sort both strings inplace first then compare each elements one by one
 # depends on the sorting algorithm choosen, time complexity can be O(n^2) or O(nlogn)
