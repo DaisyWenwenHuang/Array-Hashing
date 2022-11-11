@@ -21,6 +21,7 @@ class Solution:
 
 # solution 2
 # using Counter
+# might not be ok in interview ?
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         return Counter(s) == Counter(t)
