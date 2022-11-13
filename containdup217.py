@@ -1,6 +1,7 @@
 # https://leetcode.com/problems/contains-duplicate/
 # leetcode 217
 # easy
+# 
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         h = {}
