@@ -1,6 +1,7 @@
 # https://leetcode.com/problems/top-k-frequent-elements/
 # leetcode 347
 # medium
+# O(n) linear time
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         hashmap = {}
