@@ -1,7 +1,8 @@
 # https://leetcode.com/problems/product-of-array-except-self/
 # leetcode 238
 # medium
-# 
+# can  not use division operation
+# time complexity needs to be O(n)
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         res = [1] * len(nums)
