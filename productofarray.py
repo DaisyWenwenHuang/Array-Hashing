@@ -3,6 +3,7 @@
 # medium
 # can  not use division operation
 # time complexity needs to be O(n)
+# using prefix and postfix
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         res = [1] * len(nums)
