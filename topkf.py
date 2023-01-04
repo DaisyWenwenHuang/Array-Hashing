@@ -2,6 +2,7 @@
 # leetcode 347
 # medium
 # O(n) linear time
+# hashmap
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         hashmap = {}
